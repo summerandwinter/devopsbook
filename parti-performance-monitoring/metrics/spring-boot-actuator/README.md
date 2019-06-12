@@ -12,13 +12,9 @@ Spring Boot 2.x 在 Spring Boot Actuator 中引入了 [`micrometer`](http://micr
 
 参考文档
 
-{% embed url="https://www.jianshu.com/p/255ffdc258f9" %}
-
 {% embed url="http://www.heartthinkdo.com/?p=2457" %}
 
 {% embed url="https://www.jdon.com/soa/dropwizard-vs-spring-boot.html" %}
 
-  
-  
-
+{% embed url="https://www.jianshu.com/p/255ffdc258f9" %}
 

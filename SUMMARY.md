@@ -6,7 +6,8 @@
 
 * [介绍](parti-performance-monitoring/introduction.md)
 * [度量统计](parti-performance-monitoring/metrics/README.md)
-  * [Spring Boot 集成](parti-performance-monitoring/metrics/spring-boot-actuator.md)
+  * [Spring Boot 集成](parti-performance-monitoring/metrics/spring-boot-actuator/README.md)
+    * [Spring Boot 2.x](parti-performance-monitoring/metrics/spring-boot-actuator/spring-boot-2.x.md)
   * [micrometer](parti-performance-monitoring/metrics/micrometer/README.md)
     * [介绍](parti-performance-monitoring/metrics/micrometer/introduction.md)
     * [Registry](parti-performance-monitoring/metrics/micrometer/registry/README.md)
