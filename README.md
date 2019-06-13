@@ -198,7 +198,7 @@ DevOps 运动在 2007 到 2008 年间开始盛行，实际上 DevOps 这个概�
     </tr>
     <tr>
       <td style="text-align:left">Web&#x670D;&#x52A1;&#x5668;</td>
-      <td style="text-align:left"><a href="http://httpd.apache.org/">apache</a>&#x3001;<a href="http://nginx.org/">nginx</a>&#x3001;
+      <td style="text-align:left"><a href="http://httpd.apache.org/">Apache</a>&#x3001;<a href="http://nginx.org/">Nginx</a>&#x3001;
         <a
         href="http://tengine.taobao.org/">Tengine</a>
       </td>
