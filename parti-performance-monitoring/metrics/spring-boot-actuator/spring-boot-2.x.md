@@ -1,10 +1,10 @@
 # Spring Boot 2.x
 
-Spring Boot 中通过 Spring Boot Actuator 帮助我们监控和管理Spring Boot应用，比如健康检查、审计、统计和HTTP追踪等。所有的这些特性可以通过`JMX` 者`HTTP endpoints`来获得，这里我们主要介绍 `HTTP endpoints` 方式。
+Spring Boot 中通过 Spring Boot Actuator 帮助我们监控和管理Spring Boot应用，比如健康检查、审计、统计和HTTP追踪等。所有的这些特性可以通过JMX 者HTTP endpoints来获得，这里我们主要介绍 HTTP endpoints 方式。
 
-Spring Boot 2.x 中 actuator 集成了 Micrometer。借助这一强大的框架我们只需要通过非常小的配置就可以集成大部分的应用监控系统`。`
+Spring Boot 2.x 中 actuator 集成了 Micrometer。借助这一强大的框架我们只需要通过非常小的配置就可以集成大部分的应用监控系统。
 
-通过端点的方式 Actuator 暴露不同类型的应用信息，可以在[官方文档](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html>) 看到完整的列表。这里我们需要用到的主要是 `metrics`
+通过端点的方式 Actuator 暴露不同类型的应用信息，可以在[官方文档](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html>) 看到完整的列表。这里我们需要用到的主要是 metrics
 
 下面我们介绍如何在 Spring Boot 2.x 中集成 Actuator 
 
@@ -71,7 +71,7 @@ tomcat_threads_config_max_threads{application="actuator1",name="http-nio-18004",
 process_start_time_seconds{application="actuator1",region="region1",} 1.560331434337E9
 ```
 
-Actuator 已经帮我们实现了一系列的 `metrics` ，这些 metrics 包含了对 system, tomcat, okhttp, log, kafaka, jvm, hystrix, db, cache 的一些常用度量信息的收集，这些度量信息对一般的系统监控来说已经够用了。当然我们也可是借助 Actuator 使用的 micrometer 很方便的实现自己的 metrics 来应对自己个性化的需求。
+Actuator 已经帮我们实现了一系列的 metrics ，这些 metrics 包含了对 system, tomcat, okhttp, log, kafaka, jvm, hystrix, db, cache 的一些常用度量信息的收集，这些度量信息对一般的系统监控来说已经够用了。当然我们也可是借助 Actuator 使用的 micrometer 很方便的实现自己的 metrics 来应对自己个性化的需求。
 
 后面我们会详细介绍在 Spring Boot 2.x 中基于 micrometer 实现我们自定义的 metrics
 
