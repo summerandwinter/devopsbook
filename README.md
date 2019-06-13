@@ -1,114 +1,246 @@
 # Introduction
 
-## 简介
+## DevOps 是什么
 
-DevOps 是一个完整的面向IT运维的工作流，以 IT 自动化以及持续集成（CI）、持续部署（CD）为基础，来优化程式开发、测试、系统运维等所有环节。
+DevOps \[de'vɒps\] 是近年来兴起的一个很流行的概念，一直以来业界对 DevOps 到底是什么没有一个统一的定论。 从字面上来看 Dev 指的 Development，Ops 指的是的 Operations，它提倡的是重视软件开发人员和运维人员的沟通合作，通过自动化流程来使得软件构建、测试、发布更加快捷、频繁和可靠。用一句话来说DevOps 就是打通开发运维的壁垒，实现开发运维一体化。
 
-## **DevOps的概念**
+本质上它是一种文化和理念，围绕这种理念经过许多公司的这些年来的实践衍生出了一套工作流，更多时候我们是把 DevOps 当做是一种工作流来理解。现在对 DevOps 最常见的误解是把它当做是一种角色，比如人们常常称自己为 DevOps 工程师。
 
-DevOps一词的来自于Development和Operations的组合，突出重视软件开发人员和运维人员的沟通合作，通过自动化流程来使得软件构建、测试、发布更加快捷、频繁和可靠。
+下图可以帮助我们更好的理解 DevOps 工作流，它在开发和运维之间形成了一个良好的闭环，可以大大增加产出的效率。
 
-**DevOps是为了填补开发端和运维端之间的信息鸿沟，改善团队之间的协作关系。**不过需要澄清的一点是，从开发到运维，中间还有测试环节**。DevOps其实包含了三个部分：开发、测试和运维。**
-
-![](.gitbook/assets/devops.svg)
-
- 换句话说，DevOps希望做到的是软件产品交付过程中IT工具链的打通，使得各个团队减少时间损耗，更加高效地协同工作。专家们总结出了下面这个DevOps能力图，良好的闭环可以大大增加整体的产出。
-
-![](https://images2015.cnblogs.com/blog/1190892/201707/1190892-20170711181750743-1188576503.png)
+![DevOps &#x793A;&#x610F;&#x56FE;](.gitbook/assets/devopsworkflow.png)
 
 ## **历史变革**
 
-由上所述，相信大家对DevOps有了一定的了解。但是除了触及工具链之外，作为文化和技术的方法论，DevOps还需要公司在组织文化上的变革。回顾软件行业的研发模式，可以发现大致有三个阶段：瀑布式开发、敏捷开发、DevOps。
+DevOps 运动在 2007 到 2008 年间开始盛行，实际上 DevOps 这个概念是由敏捷开发发展而来的。从敏捷开发到 DevOps 有如下阶段：
 
-DevOps早在九年前就有人提出来，但是，为什么这两年才开始受到越来越多的企业重视和实践呢？因为DevOps的发展是独木不成林的，现在有越来越多的技术支撑。微服务架构理念、容器技术使得DevOps的实施变得更加容易，计算能力提升和云环境的发展使得快速开发的产品可以立刻获得更广泛的使用。
+ **敏捷开发-&gt;持续集成-&gt;持续交付-&gt;持续部署-&gt;DevOps**
 
-## **好处是什么？**
+![&#x4ECE;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x5230; DevOps &#x7684;&#x8FDB;&#x9636;](.gitbook/assets/devopshistroys.png)
 
-**DevOps的一个巨大好处就是可以高效交付，这也正好是它的初衷。**Puppet和DevOps Research and Assessment \(DORA\) 主办了2016年DevOps调查报告，根据全球4600位各IT公司的技术工作者的提交数据统计，得出高效公司平均每年可以完成1460次部署。
+**持续集成（Continuous Integration）**指的是：代码集成到主干之前，必须全部通过自动化测试；只要有一个测试用例失败，就不能集成。持续集成的要实现的目标是：在保持高质量的基础上，让产品可以快速迭代。
 
-与低效组织相比，高效组织的部署频繁200倍，产品投入使用速度快2555倍，服务恢复速度快24倍。在工作内容的时间分配上，低效者要多花22%的时间用在为规划好或者重复工作上，而高效者却可以多花29%的时间用在新的工作上。所以这里的高效不仅仅指公司产出的效率提高，还指员工的工作质量得到提升。
+**持续交付（Continuous Delivery）**指的是：开发人员频繁地将软件的新版本，交付给质量团队或者用户，以供评审。如果评审通过，代码就被发布。如果评审不通过，那么需要开发进行变更后再提交。
 
-**DevOps另外一个好处就是会改善公司组织文化、提高员工的参与感。**员工们变得更高效，也更有满足和成就感；调查显示高效员工的雇员净推荐值（eNPS:employee Net Promoter Score）更高，即对公司更加认同。
+**持续部署（Continuous Deployment）**指的是：代码通过评审并发布后，自动部署，以交付使用。
 
-**快速部署同时提高IT稳定性。这难道不矛盾吗？**
+**DevOps** 是一组完整的实践，可以自动化软件开发和 IT 团队之间的流程，以便他们可以更快、更可靠地构建、测试和发布软件。
 
-快速的部署其实可以帮助更快地发现问题，产品被更快地交付到用户手中，团队可以更快地得到用户的反馈，从而进行更快地响应。而且，DevOps小步快跑的形式带来的变化是比较小的，出现问题的偏差每次都不会太大，修复起来也会相对容易一些。
+## 工具链
 
-![&#x56FE;&#x7247;&#x6765;&#x6E90;&#xFF1A;&#x7EF4;&#x57FA;&#x767E;&#x79D1;](.gitbook/assets/agile-vs-iterative-flow.jpg)
+![DevOps &#x5DE5;&#x5177;&#x94FE;](.gitbook/assets/devops-apps.png)
 
-因此，认为速度就意味着危险是一种偏见。此外，滞后软件服务的发布也并不一定会完全地避免问题，在竞争日益激烈的IT行业，这反而可能错失了软件的发布时机
+上图是 Atlassian 公司总结出的工具链集合
 
-**为什么DevOps会兴起？**
+![Cloud Native Landscape](.gitbook/assets/cloudnativelandscape.png)
 
-**为什么会继续火下去？**
+ 上图是 [CNCF](https://www.cncf.io/) Cloud Native Landscape 项目总结的云原生工具链
 
-**条件成熟：技术配套发展**
+下面我们将上面两张图中的工具类型及对应的工具整理如下：
 
-技术的发展使得DevOps有了更多的配合。早期时，大家虽然意识到了这个问题的，但是苦于当时没有完善丰富的技术工具，是一种“理想很丰满，但是现实很骨感”的情况。DevOps的实现可以基于新兴的容器技术；也可以在自动化运维工具Puppet、SaltStack、Ansible之后的延伸；还可以构建在传统的Cloud Foundry、OpenShift等PaaS厂商之上。
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x7C7B;&#x578B;</th>
+      <th style="text-align:left">&#x5DE5;&#x5177;&#x96C6;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>&#x9879;&#x76EE;&#x7BA1;&#x7406;</b>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://www.atlassian.com/software/jira">JIRA</a>&#x3001; <a href="https://asana.com">Asana</a>&#x3001;
+          <a
+          href="https://taiga.io">Taiga</a>&#x3001; <a href="https://trello.com">Trello</a>&#x3001; <a href="https://basecamp.com">Basecamp</a> &#x3001;
+            <a
+            href="http://www.redmine.org">redmine</a>&#x3001;</p>
+        <p><a href="https://pivotal.io/">Pivotal Tracker</a>&#x3001; <a href="https://www.zentao.net/">&#x7985;&#x9053;</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x4EE3;&#x7801;&#x7BA1;&#x7406;</b>
+      </td>
+      <td style="text-align:left"><a href="https://github.com">GitHub</a>&#x3001;<a href="https://about.gitlab.com">GitLab</a>&#x3001;
+        <a
+        href="https://bitbucket.org">BitBucket</a>&#x3001; <a href="http://subversion.apache.org">Subversion</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x4F9D;&#x8D56;&#x6784;&#x5EFA;</b>
+      </td>
+      <td style="text-align:left"><a href="http://ant.apache.org">Ant</a>&#x3001;<a href="https://gradle.org/">Gradle</a>&#x3001;
+        <a
+        href="http://maven.apache.org/">Maven</a>&#x3001;<b> </b><a href="https://www.npmjs.com/">npm</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x6301;&#x7EED;&#x96C6;&#x6210;</b>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://www.atlassian.com/software/bamboo">Bamboo</a>&#x3001;
+          <a
+          href="http://hudson-ci.org/">Hudson</a>&#x3001;<a href="https://jenkins.io">Jenkins</a>&#x3001;<a href="https://capistranorb.com/">Capistrano</a>&#x3001;
+            <a
+            href="https://aws.amazon.com/cn/codedeploy/">CodeDeploy</a>&#x3001;</p>
+        <p><a href="https://www.travis-ci.org/">Travis CI</a>&#x3001;<a href="https://circleci.com/">circleci</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x914D;&#x7F6E;&#x7BA1;&#x7406;</b>
+      </td>
+      <td style="text-align:left"><a href="https://www.ansible.com/">Ansible</a>&#x3001;<a href="https://www.chef.io/">Chef</a>&#x3001;
+        <a
+        href="https://puppet.com/">Puppet</a>&#x3001;<a href="https://www.saltstack.com/">SaltStack</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x5BB9;&#x5668;&#x7F16;&#x6392;</b>
+      </td>
+      <td style="text-align:left"><a href="www.docker.com/">Docker</a>&#x3001;<a href="https://linuxcontainers.org/">LXC</a>&#x3001;
+        <a
+        href="https://kubernetes.io/">Kubernetes</a>&#x3001;<a href="http://mesos.apache.org">Apache Mesos</a>&#x3001;
+          <a
+          href="https://mesosphere.com">DC/OS</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x811A;&#x672C;&#x8BED;&#x8A00;</b>
+      </td>
+      <td style="text-align:left"><a href="https://www.python.org/">Python</a>&#x3001;<a href="www.ruby-lang.org">Ruby</a>&#x3001;Shell</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x65E5;&#x5FD7;&#x5206;&#x6790;</b>
+      </td>
+      <td style="text-align:left"><a href="https://www.elastic.co">Elasticsearch</a>&#x3001;<a href="https://www.elastic.co/cn/products/logstash">Logstash</a>&#x3001;
+        <a
+        href="https://www.fluentd.org/">Flutentd</a>&#x3001;<a href="https://www.elastic.co/cn/products/kibana">Kibana</a>&#x3001;
+          <a
+          href="https://logentries.com/">Logentries</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x5E94;&#x7528;&#x76D1;&#x63A7;</b>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://prometheus.io">Prometheus</a>&#x3001;<a href="https://www.datadoghq.com">Datadog</a>&#x3001;
+          <a
+          href="https://graphite.readthedocs.io">Graphite</a>&#x3001;<a href="https://icinga.com/">Icinga</a>&#x3001;
+            <a
+            href="https://www.nagios.org">Nagios</a>&#x3001;</p>
+        <p><a href="https://www.pingdom.com/">Pingdom</a>&#x3001;<a href="https://www.appdynamics.com/">AppDynamics</a>&#x3001;
+          <a
+          href="https://newrelic.com">New Relic</a>&#x3001;<a href="https://www.splunk.com/">Splunk</a>&#x3001;
+            <a
+            href="https://www.zabbix.com/">Zabbix</a>&#x3001;</p>
+        <p><a href="https://www.pagerduty.com/">PagerDuty</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x538B;&#x529B;&#x6D4B;&#x8BD5;</b>
+      </td>
+      <td style="text-align:left"><a href="https://jmeter.apache.org">JMeter</a>&#x3001;<a href="https://www.blazemeter.com/">Blaze Meter</a>&#x3001;
+        <a
+        href="https://loader.io/">loader.io</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x5355;&#x5143;&#x6D4B;&#x8BD5;</b>
+      </td>
+      <td style="text-align:left"><a href="https://junit.org/">JUnit</a>&#x3001;<a href="https://nunit.org/">NUnit</a>&#x3001;
+        <a
+        href="https://www.seleniumhq.org/">Selenium</a>&#x3001;<a href="https://sourceforge.net/projects/cppunit/">CppUnit</a>&#x3001;
+          <a
+          href="https://testng.org/">TestNg</a>&#x3001;<a href="https://xunit.net/">XUnit</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x4EE3;&#x7801;&#x8986;&#x76D6;&#x7387;</b>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://www.sonarqube.org/">SonarQube</a>&#x3001;<a href="http://www.ncover.com/">NCover</a>&#x3001;
+          <a
+          href="https://www.atlassian.com/software/clover">Clover</a>&#x3001;<a href="https://sourceforge.net/projects/cobertura/">Cobertura</a>&#x3001;
+            <a
+            href="http://sourceforge.net/projects/emma/files/emma-testing/">Emma</a>&#x3001;</p>
+        <p><a href="http://www.thucydides.info/#/">Serenity</a>&#x3001;<a href="https://www.eclemma.org/jacoco/trunk/doc/index.html">Jacoco</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x4EE3;&#x7801;&#x5206;&#x6790;</b>
+      </td>
+      <td style="text-align:left"><a href="http://checkstyle.sourceforge.net/">Checkstyle</a>&#x3001;
+        <a
+        href="https://pmd.github.io/">PMD</a>&#x3001;<a href="http://findbugs.sourceforge.net/">Findbugs</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x5B89;&#x5168;&#x5DE5;&#x5177;</b>
+      </td>
+      <td style="text-align:left"><a href="http://www.openldap.org/">OpenLDAP</a>&#x3001;<a href="https://www.atlassian.com/software/crowd">Crowd</a>&#x3001;
+        <a
+        href="https://openid.net/">OpenID</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;</b>
+      </td>
+      <td style="text-align:left"><a href="https://www.oracle.com/middleware/technologies/weblogic.html">Weblogic</a>&#x3001;
+        <a
+        href="https://javaee.github.io/glassfish/">Glassfish</a>&#x3001;<a href="http://tomcat.apache.org/">Tomcat</a>&#x3001;
+          <a
+          href="https://www.jboss.org/">JBoss</a>&#x3001;<a href="https://www.iis.net/">IIS</a>&#x3001;<a href="https://jrebel.com/">JRebel</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Web&#x670D;&#x52A1;&#x5668;</td>
+      <td style="text-align:left"><a href="http://httpd.apache.org/">apache</a>&#x3001;<a href="http://nginx.org/">nginx</a>&#x3001;
+        <a
+        href="http://tengine.taobao.org/">Tengine</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x865A;&#x62DF;&#x673A;&#x73AF;&#x5883;</b>
+      </td>
+      <td style="text-align:left"><a href="https://www.amazonaws.cn/en/ec2/">EC2</a>&#x3001;<a href="https://www.virtualbox.org/">Virtual Box</a>&#x3001;
+        <a
+        href="https://www.vmware.com/">VmWare</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;</b>
+      </td>
+      <td style="text-align:left"><a href="https://zookeeper.apache.org/">Zookeeper</a>&#x3001;<a href="https://etcd.io/">etcd</a>&#x3001;
+        <a
+        href="https://www.consul.io/">Consul</a>
+      </td>
+    </tr>
+  </tbody>
+</table>在工具的选择上，需要结合公司业务需求和技术团队情况而定。
 
-**来自市场的外部需求：这世界变化太快**
+## 参考资料
 
-IT行业已经越来越与市场的经济发展紧密挂钩，专家们认为IT将会有支持中心变成利润驱动中心。事实上，这个变化已经开始了，这不仅体现在Google、苹果这些大企业中，而且也发生在传统行业中，比如出租车业务中的Uber、酒店连锁行业中的Airbnb、图书经销商Amazon等等。能否让公司的IT配套方案及时跟上市场需求的步伐，在今天显得至关重要。
+[https://www.ibm.com/developerworks/cn/cloud/library/cl-lo-devops-via-kubernetes-and-containers/index.html](https://www.ibm.com/developerworks/cn/cloud/library/cl-lo-devops-via-kubernetes-and-containers/index.html)
 
-DevOps 2016年度报告给出了一个运维成本的计算公式：   
-停机费用成本 = 部署频率 \* 版本迭代失败概率 \* 平均修复时间 \* 断电的金钱损失
+[https://medium.com/@neonrocket/devops-is-a-culture-not-a-role-be1bed149b0](https://medium.com/@neonrocket/devops-is-a-culture-not-a-role-be1bed149b0)
 
-**来自团队的内在动力：工程师也需要**
+[https://cn.atlassian.com/devops](https://cn.atlassian.com/devops)
 
-对于工程师而言，他们也是DevOps的受益者。微软资深工程师Scott Hanselman说过“对于开发者而言，最有力的工具就是自动化工具”（The most powerful tool we have as developers is automation）。
+[https://volansys.com/continuous-integration-continuous-deployment-bandwagon-of-agile-development/](https://volansys.com/continuous-integration-continuous-deployment-bandwagon-of-agile-development/)
 
-工具链的打通使得开发者们在交付软件时可以完成生产环境的构建、测试和运行；正如Amazon的VP兼CTO Werner Vogels那句让人印象深刻的话：“谁开发谁运行”。（You build it, you run it）
+[http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/](http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/)
 
-## **实现DevOps需要什么？**
+[https://marketplace.atlassian.com/categories/devops](https://marketplace.atlassian.com/categories/devops)
 
-### **硬性要求：工具上的准备**
+[https://devops.com.vn/2018/117/](https://devops.com.vn/2018/117/)
 
-上文提到了工具链的打通，那么工具自然就需要做好准备。现将工具类型及对应的不完全列举整理如下：
+[https://www.apollo-formation.com/actus/tendances-devops-2019.html](https://www.apollo-formation.com/actus/tendances-devops-2019.html)
 
-* 代码管理（SCM）：**GitHub**、GitLab、BitBucket、SubVersion
-* 构建工具：**Ant**、Gradle、**maven**
-* 自动部署：Capistrano、CodeDeploy
-* 持续集成（CI）：Bamboo、Hudson、Jenkins
-* 配置管理：Ansible、Chef、Puppet、SaltStack、ScriptRock GuardRail
-* 容器：**Docker**、LXC、第三方厂商如AWS
-* 编排：Kubernetes、Core、Apache Mesos、DC/OS
-* 服务注册与发现：**Zookeeper**、etcd、Consul
-* 脚本语言：python、ruby、shell
-* 日志管理：ELK、Logentries
-* 系统监控：Datadog、Graphite、Icinga、Nagios
-* 性能监控：AppDynamics、New Relic、Splunk
-* 压力测试：JMeter、Blaze Meter、loader.io
-* 预警：PagerDuty、pingdom、厂商自带如AWS SNS
-* HTTP加速器：Varnish
-* 消息总线：ActiveMQ、SQS
-* 应用服务器：Tomcat、JBoss
-* Web服务器：Apache、Nginx、IIS
-* 数据库：MySQL、Oracle、PostgreSQL等关系型数据库；cassandra、mongoDB、redis等NoSQL数据库
-* 项目管理（PM）：Jira、Asana、Taiga、Trello、Basecamp、Pivotal Tracker
+[https://dev.to/ashokisaac/devops-in-3-sentences-17c4](https://dev.to/ashokisaac/devops-in-3-sentences-17c4)
 
-在工具的选择上，需要结合公司业务需求和技术团队情况而定。（注：更多关于工具的详细介绍可以参见此文：51 Best DevOps Tools for \#DevOps Engineers）
-
-### **软性需求：文化和人**
-
-DevOps成功与否，公司组织是否利于协作是关键。开发人员和运维人员可以良好沟通互相学习，从而拥有高生产力。并且协作也存在于业务人员与开发人员之间。
-
-出席了2016年伦敦企业级DevOps峰会的ITV公司在2012年就开始落地DevOps，其通用平台主管Clark在接受了InfoQ的采访，在谈及成功时表示，业务人员非常清楚他们希望在最小化可行产品中实现什么，工程师们就按需交付，不做多余工作。
-
-这样，工程师们使用通用的平台（即打通的工具链）得到更好的一致性和更高的质量。此外，DevOps对工程师个人的要求也提高了，很多专家也认为招募到优秀的人才也是一个挑战。
-
-### **DevOps的采用现状**
-
-#### **哪些公司在用？**
-
-DevOps正在增长，尤其是在大企业中：调查发现，DevOps的接受度有了显著提高。74%的受访者已经接受了DevOps，而去年这一比例为66%。目前，在81%的大企业开始接受DevOps，中小企业的接受度仅为70%。
-
-那么具体而言都有些公司在采用DevOps呢？Adobe、Amazon、Apple、Airbnb、Ebay、Etsy、Facebook、LinkedIn、Netflix、NASA、Starbucks、Target（泛欧实时全额自动清算系统）、Walmart、Sony等等。
-
-#### **他们怎么实施的？**
-
-首先，大企业正在自下而上接受DevOps，其中业务单位或部门（31%）以及项目和团队（29%）已经实施DevOps。不过，只有21%的大企业在整个公司范围内采用了DevOps。 
-
-其次，在工具层面上，DevOps工具的用量大幅激增。Chef和Puppet依然是最常用的DevOps工具，使用率均为32%。Docker是年增长率最快的工具，用量增长一倍以上。Ansible的用量也有显著增加，使用率从10%翻倍至20%。
-
-![](https://images2015.cnblogs.com/blog/1190892/201707/1190892-20170711182953040-1672217042.png)
+[https://github.com/cncf/landscape](https://github.com/cncf/landscape)
 
