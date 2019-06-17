@@ -38,9 +38,12 @@ scrape_configs:
 
 * **scrape\_interval** 是指抓取数据的时间间隔，这里设置为 15 秒，默认 1 分钟
 * **evaluation\_interval** 指的是计算 Rule 的间隔
-* **metrics\_path** Metrics服务暴露的端点路径与 targets 配合使用
+* **scrape\_configs** 配置抓取的端点
+* **metrics\_path** Metrics服务暴露的端点路径与 targets 配合使用，默认为 '/metrics'
+* **scheme** http协议，默认为 'http' 
+* **static\_configs** 静态配置，可以配置多个 target
 * **targets** Metrics 服务的 IP 地址和端口号
-* **job\_name** 设置 job 名称，要注意的是系统会把 job\_name 当做一个 job 标签插入到时间序列中 
+* **job\_name** 设置 job 名称，要注意的是系统会把 job\_name 当做一个 label job='&lt;job\_name&gt;' 标签插入到时间序列中 
 
 
 
