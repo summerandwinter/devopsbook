@@ -1,2 +1,2 @@
-# Composite registries
+# 组合注册表：Composite registries
 
