@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## PART I - 性能和业务指标监控
+## PART I - 性能和业务指标监控 <a id="parti-performance-monitoring"></a>
 
 * [介绍](parti-performance-monitoring/introduction.md)
 * [度量统计](parti-performance-monitoring/metrics/README.md)
@@ -41,12 +41,11 @@
     * [小结](parti-performance-monitoring/data-collection/promql/brief-summary.md)
 * [数据展示](parti-performance-monitoring/visual-diagram/README.md)
   * [Grafana](parti-performance-monitoring/visual-diagram/grafana/README.md)
-    * [Introduction](parti-performance-monitoring/visual-diagram/grafana/introduction.md)
-    * [Installation](parti-performance-monitoring/visual-diagram/grafana/installation.md)
-    * [Panels](parti-performance-monitoring/visual-diagram/grafana/panels/README.md)
-      * [Graph](parti-performance-monitoring/visual-diagram/grafana/panels/graph.md)
-      * [Singlestat](parti-performance-monitoring/visual-diagram/grafana/panels/singlestat.md)
-      * [Table](parti-performance-monitoring/visual-diagram/grafana/panels/table.md)
-      * [Heatmap](parti-performance-monitoring/visual-diagram/grafana/panels/heatmap.md)
-      * [Text](parti-performance-monitoring/visual-diagram/grafana/panels/text.md)
+    * [安装](parti-performance-monitoring/visual-diagram/grafana/installation.md)
+    * [配置](parti-performance-monitoring/visual-diagram/grafana/configuration/README.md)
+      * [图表：Graph](parti-performance-monitoring/visual-diagram/grafana/configuration/graph.md)
+      * [Singlestat](parti-performance-monitoring/visual-diagram/grafana/configuration/singlestat.md)
+      * [Table](parti-performance-monitoring/visual-diagram/grafana/configuration/table.md)
+      * [Heatmap](parti-performance-monitoring/visual-diagram/grafana/configuration/heatmap.md)
+      * [Text](parti-performance-monitoring/visual-diagram/grafana/configuration/text.md)
 
