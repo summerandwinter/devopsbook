@@ -48,7 +48,7 @@ Grafana 社区提供了很多用户制作的第三方[模板](https://grafana.co
 
 选择好前面配置的数据源，到此模板导入完成。
 
-![](../../../../.gitbook/assets/grafana-node-exporter-template.png)
+![](../../../../.gitbook/assets/grafana-node-exporter-template%20%281%29.png)
 
 上图我们看到模板中有一个面板显示不正常，这是因为 Grafana 默认安装包中没有提供 grafana-piechart-panel 插件，需要我们手动安装。
 
@@ -110,4 +110,67 @@ systemctl restart grafana-server
 ```
 
 重启完成后刷新页面，模板展示正常我，其他插件也是通过这样的方式安装。
+
+## 插件安装
+
+![](../../../../.gitbook/assets/grafana-node-exporter-template.png)
+
+导入模板后可以看到有个面板展示不正常，这是因为模板中用到了 grafana-piechart-panel 这个面板，而官方默认没有包含这个面板，需要我们去[官网](https://grafana.com/plugins/grafana-piechart-panel)找到这个插件后手动安装。
+
+官方提供了两种方式安装插件
+
+### 命令行安装
+
+通过 grafana-cli 命令行工具安装
+
+```bash
+grafana-cli plugins install grafana-piechart-panel
+```
+
+这种方式安装最简单也是最方便的，但是需要服务器连接外网，有时候我们的服务器并没有连接外网，这种情况就需要我们手动安装了。
+
+### 手动安装
+
+首先可以先在外网环境下载好插件
+
+```bash
+git clone https://github.com/grafana/piechart-panel.git
+```
+
+然后上传到 Grafana 的插件目录（插件目录配置在 /etc/sysconfig/grafana-server 文件 中，默认位于 /var/lib/grafana/plugins ）。
+
+{% code-tabs %}
+{% code-tabs-item title="grafana-server" %}
+```text
+GRAFANA_USER=grafana
+GRAFANA_GROUP=grafana
+GRAFANA_HOME=/usr/share/grafana
+LOG_DIR=/var/log/grafana
+DATA_DIR=/var/lib/grafana
+MAX_OPEN_FILES=10000
+CONF_DIR=/etc/grafana
+CONF_FILE=/etc/grafana/grafana.ini
+RESTART_ON_UPGRADE=true
+PLUGINS_DIR=/var/lib/grafana/plugins
+PROVISIONING_CFG_DIR=/etc/grafana/provisioning
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Grafana 也支持我们上传到自己定义的目录，假设上传目录是 /path/to/your/clone/dir/piechart-panal ，只需要 Grafana 配置文件（CONF\_FILE 中配置的地址，默认为 /etc/grafana/grafana.ini）中添加中下面的配置
+
+```text
+[plugin.piechart]
+path = /path/to/your/clone/dir/piechart-panal
+```
+
+不管是通过命令行安装还是手动安装的方式，安装完成后还需要重启 grafana-server 服务。
+
+```bash
+systemctl restart grafana-server
+```
+
+
+
+
 
