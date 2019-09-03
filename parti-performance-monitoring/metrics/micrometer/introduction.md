@@ -18,8 +18,6 @@ Micrometer 为 Java 平台上的性能数据收集提供了一个通用的 API�
 
 在 Java 应用中，只需要根据所使用的监控系统，添加所对应的模块即可。比如，使用 Prometheus 的应用只需要添加 `micrometer-registry-prometheus` 模块即可。模块 `micrometer-core` 会作为传递依赖自动添加。这里使用的 Micrometer 版本是 1.1.4。下面给出了使用 Micrometer 的 Maven 项目的示例：
 
-{% code-tabs %}
-{% code-tabs-item title="pom.xml" %}
 ```markup
 <dependency>
     <groupId>io.micrometer</groupId>
@@ -28,6 +26,4 @@ Micrometer 为 Java 平台上的性能数据收集提供了一个通用的 API�
 </dependency>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 

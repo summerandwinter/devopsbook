@@ -115,8 +115,6 @@ vim /etc/systemd/system/node_exporter.service
 
 复制下面的内容到 node\_exporter.service
 
-{% code-tabs %}
-{% code-tabs-item title="node\_exporter.service" %}
 ```text
 [Unit]
 Description=node_exporter
@@ -131,8 +129,6 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 启动并注册 node\_exporter 服务
 

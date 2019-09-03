@@ -55,8 +55,6 @@ vim /etc/systemd/system/prometheus.service
 
 复制下面的内容到 prometheus.service
 
-{% code-tabs %}
-{% code-tabs-item title="prometheus.service" %}
 ```text
 [Unit]
 Description=prometheus
@@ -72,8 +70,6 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 启动并注册 Prometheus 服务
 

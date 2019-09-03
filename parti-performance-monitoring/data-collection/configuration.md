@@ -2,8 +2,6 @@
 
 前面我们讲解了在 Linux 系统中如何离线安装 Prometheus 服务，下面我们详细了解一下 Prometheus 的最常用到的一些配置，更详细的配置文件说明可以参考[官方文档](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)，我们首先看一下它的默认的配置文件。
 
-{% code-tabs %}
-{% code-tabs-item title="prometheus.yml" %}
 ```yaml
 # my global config
 global:
@@ -33,8 +31,6 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090']
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 * **scrape\_interval** 是指抓取数据的时间间隔，这里设置为 15 秒，默认 1 分钟
 * **evaluation\_interval** 指的是计算 Rule 的间隔

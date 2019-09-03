@@ -68,8 +68,6 @@ grafana-cli plugins install grafana-piechart-panel
 
 开始介绍手动安装之前有两个配置需要说明一下，Grafana 的环境变量配置放在 /etc/sysconfig/grafana-server 文件中，如下：
 
-{% code-tabs %}
-{% code-tabs-item title="grafana-server" %}
 ```text
 GRAFANA_USER=grafana
 GRAFANA_GROUP=grafana
@@ -85,8 +83,6 @@ PROVISIONING_CFG_DIR=/etc/grafana/provisioning
 # Only used on systemd systems
 PID_FILE_DIR=/var/run/grafana
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 Grafana 的**配置文件**由 CONF\_FILE 指定，默认为  /etc/grafana/grafana.ini ，**插件安装目录**由 PLUGINS\_DIR 配置，默认 /var/lib/grafana/plugins，这两个路径后面需要用到。
 
@@ -139,8 +135,6 @@ git clone https://github.com/grafana/piechart-panel.git
 
 然后上传到 Grafana 的插件目录（插件目录配置在 /etc/sysconfig/grafana-server 文件 中，默认位于 /var/lib/grafana/plugins ）。
 
-{% code-tabs %}
-{% code-tabs-item title="grafana-server" %}
 ```text
 GRAFANA_USER=grafana
 GRAFANA_GROUP=grafana
@@ -154,8 +148,6 @@ RESTART_ON_UPGRADE=true
 PLUGINS_DIR=/var/lib/grafana/plugins
 PROVISIONING_CFG_DIR=/etc/grafana/provisioning
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 Grafana 也支持我们上传到自己定义的目录，假设上传目录是 /path/to/your/clone/dir/piechart-panal ，只需要 Grafana 配置文件（CONF\_FILE 中配置的地址，默认为 /etc/grafana/grafana.ini）中添加中下面的配置
 

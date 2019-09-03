@@ -29,7 +29,6 @@ registry.counter("http.requests", "uri", "/api/users")
 这样，当我们选择命名为”database.calls”的计数器，我们可以进一步选择分组”db”或者”users”分别统计不同分组对总调用数的贡献或者组成。一个反例如下：
 
 ```java
-
 MeterRegistry registry = ...
 registry.counter("calls",
     "class", "database",
