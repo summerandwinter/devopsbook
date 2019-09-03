@@ -6,6 +6,8 @@
 Filebeat --> Kafka --> Logstash --> Elasticsearch --> Kibana
 ```
 
+![Elastic Stack + Kafka &#x5DE5;&#x4F5C;&#x6D41;](../../.gitbook/assets/elastic-stack-workflow.svg)
+
 Filebeat 读取日志到 Kafka，Logstash 从 Kafka 队列中读取日志信息，对日志信息做分析和切割，并写入到 Elasticsearch 集群， Kibana 读取 Elasticsearch 中的日志信息做可视化展示。
 
 ## 部署准备

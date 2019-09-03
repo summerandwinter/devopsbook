@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1156px" height="305px" viewBox="0 0 1156 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Elastic Stack</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="168" height="305"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="168" height="305" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="168" height="305"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="168" height="305" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="0" y="0" width="168" height="305"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="168" height="305" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-21" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-23" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-25" x="0" y="0" width="168" height="305"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="168" height="305" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-27" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-29" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-30">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-31" x="0" y="0" width="100" height="40"></rect>
+        <filter x="-7.0%" y="-12.5%" width="114.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-33" x="0" y="0" width="120" height="52"></rect>
+        <filter x="-5.8%" y="-9.6%" width="111.7%" height="126.9%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Elastic-Stack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Kafka" transform="translate(258.000000, 0.000000)">
+            <use id="矩形备份" stroke="#000000" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="5,5" xlink:href="#path-1"></use>
+            <g id="Filebeat备份-3" transform="translate(34.000000, 112.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <text id="node-1" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="23" y="26">node-1</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份-4" transform="translate(34.000000, 242.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <text id="node-3" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="23" y="26">node-3</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份-5" transform="translate(34.000000, 177.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+                <text id="node-2" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="23" y="26">node-2</tspan>
+                </text>
+            </g>
+            <text id="Kafaka" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="57" y="44">Kafaka</tspan>
+            </text>
+            <g id="kafka" transform="translate(74.000000, 67.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M11.205226,16.7068137 L13.4959672,18.0262796 L13.4959672,18.0262796 C14.9142097,16.5819522 17.2347684,16.5608087 18.679093,17.9790489 C20.1234205,19.3972914 20.144564,21.7178501 18.7263237,23.1621747 C17.3080812,24.6065022 14.9875225,24.6276457 13.5431979,23.2094055 C12.5918114,22.2752007 12.2228154,20.898022 12.5796713,19.6132893 L10.2522805,18.271832 L10.2522803,18.2718322 C9.41719031,19.2379399 8.27145304,19.8827411 7.01226095,20.0952619 L7.01226095,22.118445 L7.01226095,22.118445 C8.97220828,22.6245001 10.1508167,24.623592 9.64476453,26.5835336 C9.13870952,28.5434809 7.13961761,29.7220893 5.179676,29.2160371 C3.21972867,28.7099821 2.04112027,26.7108902 2.54717242,24.7509486 C2.88051005,23.4599338 3.88865836,22.4517855 5.179676,22.118445 L5.179676,20.095262 L5.1796757,20.0952619 C2.18483628,19.5949876 0.162581324,16.7616278 0.662852739,13.7667884 C1.04965501,11.4512341 2.86411285,9.63677056 5.1796757,9.24996543 L5.1796757,7.22678234 L5.17967581,7.22678237 C3.21972848,6.72072736 2.04112008,4.72163545 2.54717223,2.76169384 C3.05322725,0.80174651 5.05231916,-0.376861893 7.01226076,0.129190258 C8.97220809,0.635245274 10.1508165,2.63433718 9.64476434,4.59427879 C9.31142672,5.88529357 8.30327841,6.89344188 7.01226076,7.22678237 L7.01226076,9.24996545 L7.01226106,9.24996551 C8.25166458,9.45916197 9.38176694,10.0872842 10.2138091,11.0294124 L12.5778522,9.66596365 L12.577852,9.66596304 C12.0373818,7.71312275 13.1823342,5.69189331 15.1351745,5.15143174 C15.4524361,5.06362615 15.7800703,5.01891854 16.10926,5.01851292 L16.10926,5.01851292 C18.1334858,5.01820444 19.7746992,6.65891274 19.7750143,8.68314999 C19.7753228,10.7073758 18.1346145,12.3485892 16.1103772,12.3489043 C15.1263,12.3490542 14.1834987,11.953471 13.4941502,11.2511803 L11.1850842,12.5853071 C11.4471441,13.2285472 11.5937519,13.9340949 11.5937519,14.6726283 C11.5937519,15.3910036 11.4563076,16.0763932 11.2052423,16.7068057 L11.205226,16.7068137 Z M14.5038835,19.7104188 L14.5038835,19.7104187 C14.0239622,20.6015114 14.3572812,21.7129395 15.2483753,22.1928609 C16.139468,22.6727823 17.2508961,22.3394633 17.7308175,21.4483692 C18.2107389,20.5572765 17.8774199,19.4458483 16.9863258,18.9659269 C16.1182815,18.4984178 15.0359261,18.8014776 14.5368693,19.6517777 L14.5038827,19.7104207 L14.5038835,19.7104188 Z M14.5387028,9.62750339 L14.5387029,9.62750355 C15.0715304,10.4880082 16.2010484,10.7536413 17.061553,10.2208139 C17.9220577,9.68798644 18.1876908,8.55846846 17.6548633,7.69796381 C17.1220359,6.83745916 15.9925179,6.57182604 15.1320133,7.10465348 C14.2940672,7.6235132 14.0165633,8.71219077 14.5038839,9.5688626 L14.5387032,9.62750556 L14.5387028,9.62750339 Z M6.09596386,17.9712996 L6.09596371,17.9712996 C7.91776635,17.9712996 9.3946212,16.4944361 9.3946212,14.6726421 C9.3946212,12.8508394 7.91775776,11.3739846 6.09596371,11.3739846 L6.09596357,11.3739846 C4.27416093,11.3739846 2.79730608,12.850848 2.79730608,14.6726421 C2.79730608,16.4944447 4.27416952,17.9712996 6.09596357,17.9712996 L6.09596386,17.9712996 Z M6.09596386,27.5007768 L6.09596395,27.5007768 C7.10807685,27.5009033 7.92865775,26.6805253 7.92878379,25.6684124 C7.92891028,24.6562995 7.10853232,23.8357186 6.09641942,23.8355926 C6.09626667,23.8355926 6.09611393,23.8355926 6.09596118,23.8355926 L6.09596127,23.8355926 C5.08384837,23.8357191 4.26347086,24.6563024 4.2635969,25.6684124 C4.26372336,26.6803448 5.08402598,27.5006479 6.0959584,27.5007768 L6.09596386,27.5007768 Z M6.09596386,5.50966006 L6.09596395,5.50966006 C7.10807685,5.50978655 7.92865775,4.68940858 7.92878379,3.67729569 C7.92891028,2.66518279 7.10853232,1.84460189 6.09641942,1.84447583 C6.09626667,1.84447583 6.09611393,1.84447583 6.09596118,1.84447583 L6.09596127,1.84447583 C5.08384837,1.84460233 4.26347086,2.66518565 4.2635969,3.67729569 C4.26372336,4.68922811 5.08402598,5.50953115 6.0959584,5.50966006 L6.09596386,5.50966006 Z" id="形状"></path>
+            </g>
+        </g>
+        <g id="Elasticsearch" transform="translate(774.000000, 0.000000)">
+            <use id="矩形备份-2" stroke="#000000" mask="url(#mask-10)" stroke-width="2" stroke-dasharray="5,5" xlink:href="#path-9"></use>
+            <g id="Filebeat备份-11" transform="translate(34.000000, 112.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                </g>
+                <text id="es-node-1" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="10" y="26">es-node-1</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份-12" transform="translate(34.000000, 242.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                </g>
+                <text id="es-node-3" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="10" y="26">es-node-3</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份-13" transform="translate(34.000000, 177.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                </g>
+                <text id="es-node-2" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="10" y="26">es-node-2</tspan>
+                </text>
+            </g>
+            <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="33" y="44">Elasticsearch</tspan>
+            </text>
+            <g id="logo-elastic-search-color-64" transform="translate(74.000000, 64.000000)" fill-rule="nonzero">
+                <path d="M19.88525,4.04479167 L19.8865,4.04229167 C17.82275,1.57229167 14.72025,-0.000208333333 11.2498333,-0.000208333333 C6.83358333,-0.000208333333 3.01358333,2.54645833 1.17233333,6.24979167 L15.8356667,6.24979167 C16.88775,6.24979167 17.9119167,5.88729167 18.7169167,5.20979167 C19.13525,4.85770833 19.5265,4.474375 19.88525,4.04479167" id="Fill-1" fill="#FEC514"></path>
+                <path d="M-1.52766688e-13,11.2464583 C-1.52766688e-13,12.255625 0.135,13.2327083 0.384166667,14.163125 L14.1666667,14.163125 C15.7775,14.163125 17.0833333,12.8572917 17.0833333,11.2464583 C17.0833333,9.635625 15.7775,8.32979167 14.1666667,8.32979167 L0.384166667,8.32979167 C0.135,9.26020833 -1.52766688e-13,10.2372917 -1.52766688e-13,11.2464583" id="Fill-4" fill="#343741"></path>
+                <path d="M19.88525,18.448125 L19.8865,18.450625 C17.82275,20.920625 14.72025,22.493125 11.2498333,22.493125 C6.83358333,22.493125 3.01358333,19.9464583 1.17233333,16.243125 L15.8356667,16.243125 C16.88775,16.243125 17.9119167,16.605625 18.7169167,17.283125 C19.13525,17.6352083 19.5265,18.0185417 19.88525,18.448125" id="Fill-6" fill="#00BFB3"></path>
+            </g>
+        </g>
+        <g id="Beats">
+            <use id="矩形备份-4" stroke="#000000" mask="url(#mask-18)" stroke-width="2" stroke-dasharray="5,5" xlink:href="#path-17"></use>
+            <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="62" y="44">Beats</tspan>
+            </text>
+            <g id="Filebeat" transform="translate(34.000000, 112.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                </g>
+                <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="20" y="26">Filebeat</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份" transform="translate(34.000000, 177.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                </g>
+                <text id="Filebeat" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="20" y="26">Filebeat</tspan>
+                </text>
+            </g>
+            <g id="Filebeat备份-2" transform="translate(34.000000, 242.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                </g>
+                <text id="Filebeat" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="20" y="26">Filebeat</tspan>
+                </text>
+            </g>
+            <g id="logo-beats-64-color" transform="translate(74.000000, 61.000000)" fill-rule="nonzero">
+                <path d="M15.9629302,10.6384186 C14.749907,9.87004651 13.3159535,9.4184186 11.7731628,9.4184186 L0.000139534884,9.4184186 L0.000139534884,15.6974884 L8.63362791,15.6974884 C11.9843256,15.6974884 14.8368837,13.5937674 15.9629302,10.6384186" id="Fill-1" fill="#343741"></path>
+                <path d="M17.8066047,12.2490233 C16.1624186,15.6620465 12.6684651,18.0234419 8.6335814,18.0234419 L9.30232558e-05,18.0234419 L9.30232558e-05,25.1164651 L11.7731163,25.1164651 C16.1084651,25.1164651 19.6219535,21.6020465 19.6219535,17.2676279 C19.6219535,15.3583256 18.9396279,13.6094884 17.8066047,12.2490233" id="Fill-3" fill="#00BFB3"></path>
+                <path d="M15.9629302,10.6384186 C16.2936279,9.77051163 16.4824651,8.83283721 16.4824651,7.84865116 C16.4824651,3.51423256 12.9689767,-0.000186046512 8.63362791,-0.000186046512 L0.000139534884,-0.000186046512 L0.000139534884,9.4184186 L11.7731628,9.4184186 C13.3159535,9.4184186 14.749907,9.87004651 15.9629302,10.6384186" id="Fill-6" fill="#0077CC"></path>
+            </g>
+        </g>
+        <g id="Logstash" transform="translate(516.000000, 0.000000)">
+            <use id="边框" stroke="#000000" mask="url(#mask-26)" stroke-width="2" stroke-dasharray="5,5" xlink:href="#path-25"></use>
+            <g id="Logstash3" transform="translate(34.000000, 241.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                </g>
+                <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="10" y="26">Logstash3</tspan>
+                </text>
+            </g>
+            <g id="Logstash2" transform="translate(34.000000, 177.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-30)" xlink:href="#path-29"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
+                </g>
+                <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="10" y="26">Logstash2</tspan>
+                </text>
+            </g>
+            <g id="Logstash1" transform="translate(34.000000, 112.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                </g>
+                <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                    <tspan x="12" y="26">Logstash1</tspan>
+                </text>
+            </g>
+            <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="49" y="44">Logstash</tspan>
+            </text>
+            <g id="logo-logstash-64-color" transform="translate(74.000000, 64.000000)" fill-rule="nonzero">
+                <path d="M9.56517391,14.7826087 L-4.34782609e-05,14.7826087 L-4.34782609e-05,5.32907052e-15 L0.869521739,5.32907052e-15 C5.67213043,5.32907052e-15 9.56517391,3.89304348 9.56517391,8.69565217 L9.56517391,14.7826087 Z" id="Fill-1" fill="#FEC514"></path>
+                <path d="M9.1303913,23.9130435 L9.56517391,23.9130435 L9.56517391,14.7826087 L-4.34782609e-05,14.7826087 C-4.34782609e-05,19.8252174 4.08778261,23.9130435 9.1303913,23.9130435" id="Fill-4" fill="#343741"></path>
+                <polygon id="Fill-7" fill="#00BFB3" points="11.7391304 23.9130435 20 23.9130435 20 14.7826087 11.7391304 14.7826087"></polygon>
+            </g>
+        </g>
+        <g id="Kibana" transform="translate(1032.000000, 118.000000)">
+            <g id="矩形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+            </g>
+            <text font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="44" y="33">Kibana</tspan>
+            </text>
+            <g id="logo-kibana-64-color" transform="translate(12.000000, 14.000000)" fill-rule="nonzero">
+                <path d="M-2.84217094e-14,9.41855814 L-2.84217094e-14,22.5957674 L9.36604651,11.810186 C6.58093023,10.2929767 3.39488372,9.41855814 -2.84217094e-14,9.41855814" id="Fill-1" fill="#343741"></path>
+                <path d="M-7.10542736e-15,-4.65116279e-05 L-7.10542736e-15,9.41855814 C3.39488372,9.41855814 6.58093023,10.2929767 9.36604651,11.810186 L19.6223256,-4.65116279e-05 L-7.10542736e-15,-4.65116279e-05 Z" id="Fill-3" fill="#F04E98"></path>
+                <path d="M11.3690233,13.0506977 L1.756,24.1209302 L0.891348837,25.1162791 L19.2285581,25.1162791 C18.2225116,20.1590698 15.3453023,15.8832558 11.3690233,13.0506977" id="Fill-6" fill="#00BFB3"></path>
+            </g>
+        </g>
+        <g id="Beats-写入数据到-Kafka" transform="translate(168.000000, 121.000000)">
+            <path d="M82,18 L91,22.5 L82,27 L82,23 L0,23 L0,22 L82,22 L82,18 Z" fill="#000000" fill-rule="nonzero"></path>
+            <text id="Write" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="24" y="17">Write</tspan>
+            </text>
+        </g>
+        <g id="Logstash-从-Kafka-读取数据" transform="translate(425.500000, 121.000000)">
+            <path d="M9,18.5 L9,22.5 L91,22.5 L91,23.5 L9,23.5 L9,27.5 L0,23 L9,18.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <text id="Read" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="24.5" y="17">Read</tspan>
+            </text>
+        </g>
+        <g id="Logstash-写入数据到-ES" transform="translate(683.500000, 121.000000)">
+            <path d="M82,18.5 L91,23 L82,27.5 L82,23.5 L0,23.5 L0,22.5 L82,22.5 L82,18.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <text id="Write" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="23.5" y="17">Write</tspan>
+            </text>
+        </g>
+        <g id="Kibana-从-ES-读取数据" transform="translate(941.500000, 121.000000)">
+            <path d="M9,18.5 L9,22.5 L91,22.5 L91,23.5 L9,23.5 L9,27.5 L0,23 L9,18.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <text id="Read" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#304858">
+                <tspan x="25.5" y="17">Read</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
